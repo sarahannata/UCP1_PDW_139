@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C88EA7;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #E7CBCB;
+  }
+
+.datetime{
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.greeting{
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 20px;
+}
