@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C88EA7;
+    background-color: #B3C890;
   }
   
   li {
@@ -21,22 +21,54 @@ ul {
   }
   
   li a:hover {
-    background-color: #E7CBCB;
+    background-color: #DBDFAA;
   }
 
 .datetime{
     float: right;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 80px;
     font-family: "Segoe UI";
     font-weight: bold;
+}
+#currentdate{
+    font-size: 20px;
+    margin-bottom: 1px;
 }
 
 .greeting{
     float: left;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 100px;
     font-family: "Segoe UI";
     font-weight: bold;
     font-size: 20px;
+}
+
+.carousel-inner {
+    width: 1000px;
+    height: 380px;
+    margin: 0 auto;
+    margin-left: 58px;
+    margin-bottom: 15px;
+  }
+
+
+.row-cols-1.row-cols-md-3.g-2 .col {
+    padding: 1px;
+    width: 200px;
+    margin-top: 15px;
+     }
+.card{
+    width: 400px;
+    margin-left: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-left: 520px;
+}
+
+.btn.btn-primary{
+    background-color: #73A9AD;
 }

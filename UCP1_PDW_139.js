@@ -34,19 +34,22 @@ function updateDate() {
     var currentHour = new Date().getHours();
     var greeting = "";
   
-    if (currentHour < 10) {
+    if (currentHour < 3) {
+        greeting = "Selamat Malam, Sarah!🌜";
+    } else if (currentHour < 6) {
+        greeting = "Happy Sunrise, Sarah!🌄";
+    } else if (currentHour < 10) {
         greeting = "Selamat Pagi, Sarah!⛅";
     } else if (currentHour < 15) {
       greeting = "Selamat Siang, Sarah!🌞";
-    } else if (currentHour < 18) {
+    } else if (currentHour < 17) {
         greeting = "Selamat Sore, Sarah!⛅";
-    } else if (currentHour < 24) {
-        greeting = "Selamat Malam, Sarah!🌜";
-    } else if (currentHour < 3){
-      greeting = "Selamat Malam, Sarah!🌜";
+    } else if (currentHour < 18) {
+        greeting = "Happy Sunset, Sarah!🌇";
     } else {
-      greeting = "Welcome, Sarah!🙌";
-    }
+      greeting = "Selamat Malam, Sarah!🌜";
+    } 
+
   
     greetingElement.innerHTML = greeting;
   }
